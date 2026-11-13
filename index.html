@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>杨林 Evelyn｜艺术作品集导师 Art Director</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 120 120%27%3E%3Ccircle cx=%2760%27 cy=%2760%27 r=%2760%27 fill=%27%23EE6A1F%27/%3E%3Cpath d=%27M37 72 C35 47 50 32 61 32 C76 32 88 47 86 72 Z M25 75 C42 66 80 66 97 75 C98 80 94 83 88 82 C76 76 46 76 34 83 C28 84 24 80 25 75 Z%27 fill=%27%23151312%27/%3E%3C/svg%3E">
+<meta name="description" content="杨林 Evelyn — Art Director and bilingual Mandarin/English art portfolio mentor (艺术作品集导师) with 12 years in art education, enrollment and marketing, school management, design and an MBA. New York, NY.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,800;1,500&family=Inter:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#151312; --ink2:#3b3633; --mute:#7a716b;
+  --cream:#FBF6EE; --paper:#FFFFFF; --line:#EADFD1;
+  --sun:#F59A23; --orange:#EE6A1F; --deep:#C9480F; --pale:#FFE6C4;
+  --serif:'Playfair Display', 'Noto Serif SC', Georgia, serif;
+  --sans:'Inter', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+  --zh:'Noto Serif SC', 'PingFang SC', serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--ink);background:var(--cream);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+.zh{font-family:var(--zh);font-weight:500;color:var(--mute);letter-spacing:.04em}
+
+/* nav */
+nav{position:sticky;top:0;z-index:50;background:rgba(251,246,238,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:14px;height:68px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.mono{width:38px;height:38px;border-radius:50%;background:var(--ink);color:var(--sun);display:grid;place-items:center;font-family:var(--serif);font-weight:700;font-size:15px;letter-spacing:.02em}
+.logo b{font-family:var(--serif);font-size:19px;font-weight:700}
+.logo span{font-family:var(--zh);font-size:14px;color:var(--mute);margin-left:4px}
+.links{display:flex;gap:28px;font-size:14px;font-weight:500}
+.links a{text-decoration:none;color:var(--ink2)}
+.links a:hover{color:var(--orange)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 24px;border-radius:999px;font-weight:600;font-size:14.5px;text-decoration:none;transition:.2s;border:1.5px solid transparent;cursor:pointer}
+.btn-o{background:linear-gradient(135deg,var(--sun),var(--orange));color:#fff;box-shadow:0 8px 24px -8px rgba(238,106,31,.6)}
+.btn-o:hover{transform:translateY(-2px);box-shadow:0 12px 30px -8px rgba(238,106,31,.7)}
+.btn-k{border-color:var(--ink);color:var(--ink);background:transparent}
+.btn-k:hover{background:var(--ink);color:#fff}
+nav .btn{padding:10px 20px;font-size:13.5px}
+
+/* hero */
+.hero{position:relative;overflow:hidden;padding:84px 0 96px}
+.hero:before{content:"";position:absolute;right:-180px;top:-160px;width:640px;height:640px;border-radius:50%;background:radial-gradient(circle at 40% 40%,#FFD08A 0%,var(--sun) 38%,var(--orange) 70%,rgba(238,106,31,0) 71%);opacity:.95}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.25fr .9fr;gap:56px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:12.5px;letter-spacing:.22em;text-transform:uppercase;font-weight:600;color:var(--deep)}
+.eyebrow:before{content:"";width:34px;height:1.5px;background:var(--deep)}
+h1{font-family:var(--serif);font-weight:800;font-size:clamp(48px,7vw,92px);line-height:.98;letter-spacing:-.02em;margin:22px 0 10px}
+h1 em{font-style:italic;font-weight:500;color:var(--orange)}
+.h1zh{font-family:var(--zh);font-size:22px;letter-spacing:.3em;color:var(--ink2);margin-bottom:26px}
+.lead{font-size:19px;color:var(--ink2);max-width:600px;margin-bottom:10px}
+.lead-zh{font-size:15px;max-width:600px;margin-bottom:34px}
+.cta{display:flex;gap:14px;flex-wrap:wrap}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:34px}
+.tag{font-size:12.5px;font-weight:500;padding:7px 14px;border-radius:999px;background:var(--paper);border:1px solid var(--line);color:var(--ink2)}
+
+.portrait{position:relative;aspect-ratio:4/5;border-radius:220px 220px 24px 24px;background:var(--ink);overflow:hidden;box-shadow:0 40px 80px -30px rgba(21,19,18,.55)}
+.portrait svg{position:absolute;inset:0;width:100%;height:100%}
+.badge{position:absolute;left:-26px;bottom:44px;background:var(--paper);border-radius:18px;padding:16px 20px;box-shadow:0 20px 40px -18px rgba(0,0,0,.35);display:flex;gap:14px;align-items:center}
+.badge .n{font-family:var(--serif);font-size:38px;font-weight:800;color:var(--orange);line-height:1}
+.badge .t{font-size:12.5px;line-height:1.35;font-weight:600}
+.badge .t small{display:block;font-family:var(--zh);color:var(--mute);font-weight:500}
+
+/* stats */
+.stats{background:var(--ink);color:#fff}
+.stats .wrap{display:grid;grid-template-columns:repeat(5,1fr)}
+.stat{padding:44px 22px;border-right:1px solid rgba(255,255,255,.1)}
+.stat:last-child{border-right:0}
+.stat .n{font-family:var(--serif);font-size:50px;font-weight:700;line-height:1;background:linear-gradient(135deg,#FFD08A,var(--sun),var(--orange));-webkit-background-clip:text;background-clip:text;color:transparent}
+.stat .l{font-size:14px;font-weight:500;margin-top:12px;color:#f1ebe4}
+.stat .z{font-family:var(--zh);font-size:12.5px;color:#a69c94;margin-top:2px}
+
+/* sections */
+section.s{padding:110px 0}
+.sh{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:56px;flex-wrap:wrap}
+.kicker{font-size:12.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--deep);font-weight:600;margin-bottom:14px}
+h2{font-family:var(--serif);font-size:clamp(36px,4.6vw,56px);line-height:1.05;font-weight:700;letter-spacing:-.015em}
+h2 em{font-style:italic;font-weight:500;color:var(--orange)}
+.h2zh{font-family:var(--zh);font-size:17px;color:var(--mute);margin-top:10px;letter-spacing:.12em}
+.sh p{max-width:440px;color:var(--ink2);font-size:16px}
+
+/* about */
+.about{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:start}
+.about .big{font-family:var(--serif);font-size:30px;line-height:1.35;font-weight:500}
+.about .big em{color:var(--orange)}
+.about p{color:var(--ink2);margin-bottom:18px;font-size:16.5px}
+.about .zhp{font-family:var(--zh);color:var(--mute);font-size:15px;line-height:1.9;border-left:3px solid var(--sun);padding-left:18px;margin-top:26px}
+
+/* strengths */
+.bg-paper{background:var(--paper)}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:var(--cream);border:1px solid var(--line);border-radius:22px;padding:34px 30px;transition:.25s;position:relative;overflow:hidden}
+.card:hover{transform:translateY(-4px);box-shadow:0 26px 50px -30px rgba(201,72,15,.45);border-color:#f3c99a}
+.ic{width:52px;height:52px;border-radius:15px;background:linear-gradient(135deg,var(--sun),var(--orange));display:grid;place-items:center;margin-bottom:24px}
+.ic svg{width:26px;height:26px;stroke:#fff;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.card h3{font-family:var(--serif);font-size:23px;font-weight:700;line-height:1.2}
+.card .cz{font-family:var(--zh);font-size:13.5px;color:var(--mute);margin:4px 0 16px}
+.card ul{list-style:none}
+.card li{font-size:14.5px;color:var(--ink2);padding:7px 0 7px 20px;position:relative;border-top:1px dashed var(--line)}
+.card li:first-child{border-top:0}
+.card li:before{content:"";position:absolute;left:0;top:15px;width:8px;height:8px;border-radius:50%;background:var(--sun)}
+
+/* experience */
+.tl{position:relative}
+.job{display:grid;grid-template-columns:230px 1fr;gap:40px;padding:34px 0;border-top:1px solid var(--line)}
+.job:last-child{border-bottom:1px solid var(--line)}
+.when{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--deep)}
+.where{font-size:13.5px;color:var(--mute);margin-top:6px}
+.job h3{font-family:var(--serif);font-size:25px;font-weight:700;line-height:1.2}
+.job .org{font-weight:600;color:var(--ink2);margin:4px 0 2px}
+.job .jz{font-family:var(--zh);font-size:13.5px;color:var(--mute);margin-bottom:14px}
+.job ul{padding-left:18px;color:var(--ink2);font-size:15px}
+.job li{margin:5px 0}
+.job li::marker{color:var(--orange)}
+
+/* education */
+.edu{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.ed{background:var(--ink);color:#fff;border-radius:22px;padding:30px 26px;position:relative;overflow:hidden;min-height:230px;display:flex;flex-direction:column}
+.ed:after{content:"";position:absolute;right:-34px;top:-34px;width:90px;height:90px;border-radius:50%;background:var(--orange);opacity:.9}
+.ed .deg{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--sun);font-weight:600}
+.ed h4{font-family:var(--serif);font-size:21px;line-height:1.25;margin:14px 0 8px;font-weight:700;position:relative;z-index:1}
+.ed p{font-size:13.5px;color:#cfc6bf;position:relative;z-index:1}
+.ed .ez{font-family:var(--zh);font-size:13px;color:#a69c94;margin-top:auto;padding-top:14px;position:relative;z-index:1}
+
+/* portfolio */
+.pf{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:230px;gap:18px}
+.tile{border-radius:22px;padding:26px;display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden;text-decoration:none}
+.tile .tt{font-family:var(--serif);font-size:22px;font-weight:700;line-height:1.15;position:relative}
+.tile .td{font-size:13px;margin-top:6px;opacity:.85;position:relative}
+.tile .tz{font-family:var(--zh);font-size:12.5px;opacity:.7;margin-top:2px;position:relative}
+.tile .num{position:absolute;top:22px;left:26px;font-size:12px;letter-spacing:.2em;font-weight:600;opacity:.7}
+.t1{grid-column:span 2;grid-row:span 2;background:linear-gradient(160deg,#FFB443,var(--orange) 60%,var(--deep));color:#fff}
+.t1 .tt{font-size:36px}
+.t2{background:var(--ink);color:#fff}
+.t3{background:var(--pale);color:var(--ink)}
+.t4{background:var(--paper);color:var(--ink);border:1px solid var(--line)}
+.t5{grid-column:span 2;background:var(--ink);color:#fff}
+.deco{position:absolute;inset:0;pointer-events:none}
+.tile a.lk{position:relative;display:inline-block;margin-top:12px;font-size:13px;font-weight:600;color:inherit;border-bottom:1.5px solid currentColor;width:max-content;text-decoration:none}
+
+/* skills */
+.skills{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.sk h4{font-family:var(--serif);font-size:19px;margin-bottom:4px}
+.sk .sz{font-family:var(--zh);font-size:12.5px;color:var(--mute);margin-bottom:14px}
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chip{font-size:13px;padding:6px 12px;border-radius:8px;background:var(--cream);border:1px solid var(--line)}
+.lang{display:flex;gap:16px;margin-top:46px;flex-wrap:wrap}
+.lg{flex:1;min-width:240px;border-radius:18px;padding:22px 26px;background:linear-gradient(135deg,var(--pale),#fff);border:1px solid #f6d3a8;display:flex;justify-content:space-between;align-items:center}
+.lg b{font-family:var(--serif);font-size:22px}
+.lg span{font-size:13px;color:var(--deep);font-weight:600;letter-spacing:.06em}
+
+/* philosophy */
+.quote{background:var(--ink);color:#fff;position:relative;overflow:hidden}
+.quote:before{content:"";position:absolute;left:-140px;bottom:-200px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,var(--sun),var(--orange) 60%,transparent 61%);opacity:.9}
+.quote .wrap{position:relative;padding:110px 28px;text-align:center}
+.quote blockquote{font-family:var(--serif);font-size:clamp(28px,3.6vw,46px);line-height:1.3;font-weight:500;max-width:900px;margin:0 auto}
+.quote blockquote em{color:var(--sun)}
+.quote .qz{font-family:var(--zh);color:#bfb4ab;font-size:17px;margin-top:22px;letter-spacing:.1em}
+
+/* contact */
+.contact{display:grid;grid-template-columns:1.1fr 1fr;gap:56px;align-items:center}
+.cbox{background:var(--paper);border:1px solid var(--line);border-radius:26px;padding:38px}
+.crow{display:flex;gap:16px;align-items:center;padding:18px 0;border-top:1px solid var(--line)}
+.crow:first-child{border-top:0;padding-top:0}
+.crow .ci{width:46px;height:46px;border-radius:50%;background:var(--ink);display:grid;place-items:center;flex:none}
+.crow .ci svg{width:20px;height:20px;stroke:var(--sun);fill:none;stroke-width:1.8}
+.crow small{display:block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);font-weight:600}
+.crow b{font-size:17px;font-weight:600;word-break:break-all}
+.crow a{text-decoration:none}
+.copy{margin-left:auto;font-size:12px;font-weight:600;padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:var(--cream);cursor:pointer;font-family:var(--sans)}
+.copy:hover{border-color:var(--orange);color:var(--orange)}
+.seek{margin-top:26px}
+.seek h4{font-size:12.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--deep);margin-bottom:12px}
+footer{padding:36px 0;border-top:1px solid var(--line);font-size:13px;color:var(--mute)}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+
+
+.artgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.aw{margin:0;background:var(--paper);border:1px solid var(--line);border-radius:18px;overflow:hidden;cursor:zoom-in;transition:.25s}
+.aw:hover{transform:translateY(-4px);box-shadow:0 26px 50px -28px rgba(201,72,15,.5)}
+.aw img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;background:#f3ede4}
+.aw figcaption{padding:14px 16px 16px}
+.aw b{font-family:var(--serif);font-size:18px;display:block}
+.aw span{font-size:12.5px;color:var(--mute)}
+.artist{display:grid;grid-template-columns:300px 1fr;gap:44px;align-items:center;margin-top:50px;background:var(--ink);color:#fff;border-radius:26px;overflow:hidden}
+.artist img{width:100%;height:100%;object-fit:cover;object-position:50% 20%;min-height:340px}
+.artist>div{padding:40px 44px 40px 0}
+.big2{font-family:var(--serif);font-size:26px;line-height:1.4}
+.artist .zh{color:#bfb4ab}
+.lb{position:fixed;inset:0;z-index:100;background:rgba(15,13,12,.94);display:none;align-items:center;justify-content:center}
+.lb.on{display:flex}
+.lb figure{max-width:88vw;max-height:90vh;text-align:center}
+.lb img{max-width:88vw;max-height:80vh;border-radius:10px;box-shadow:0 30px 80px rgba(0,0,0,.6)}
+.lb figcaption{color:#fff;margin-top:14px;font-family:var(--serif);font-size:20px}
+.lb figcaption small{display:block;font-family:var(--sans);font-size:13px;color:#bfb4ab;margin-top:4px}
+.lb button{position:absolute;background:rgba(255,255,255,.1);color:#fff;border:0;width:52px;height:52px;border-radius:50%;font-size:30px;cursor:pointer;line-height:1}
+.lb button:hover{background:var(--orange)}
+.lbx{top:22px;right:22px}.lbp{left:22px;top:50%;transform:translateY(-50%)}.lbn{right:22px;top:50%;transform:translateY(-50%)}
+@media (max-width:780px){.artgrid{grid-template-columns:1fr 1fr;gap:14px}.gallery .aw.feat{grid-column:1/-1}.gallery .aw.feat .mat{padding:0;background:#141211}.artist{grid-template-columns:1fr}.artist>div{padding:0 28px 34px}.artist img{max-height:420px}}
+
+
+.plate{position:absolute;left:0;right:0;bottom:0;padding:14px 22px;text-align:right!important;background:linear-gradient(transparent,rgba(0,0,0,.7));color:#fff;font-size:12px;letter-spacing:.08em;text-align:center}
+.plate i{font-family:var(--serif);font-size:14px;letter-spacing:0}
+.gallery{background:radial-gradient(ellipse at 50% 0%,#3a3431 0%,#1c1918 55%,#141211 100%);color:#fff}
+.gallery h2{color:#fff}.gallery .sh p{color:#cfc6bf}.gallery .h2zh{color:#a69c94}.gallery .kicker{color:var(--sun)}
+.gallery .artgrid{gap:44px 40px}
+.gallery .aw{background:transparent;border:0;border-radius:0;overflow:visible}
+.gallery .aw:hover{transform:none;box-shadow:none}
+.gallery .aw .mat{background:#fbf9f5;padding:22px;box-shadow:0 2px 0 rgba(255,255,255,.04),0 30px 60px -20px rgba(0,0,0,.75),0 0 0 1px rgba(0,0,0,.4);transition:transform .35s ease,box-shadow .35s ease;position:relative}
+.gallery .aw .mat:before{content:"";position:absolute;inset:-14px -30px auto;height:60px;background:radial-gradient(ellipse at 50% 0,rgba(255,236,200,.18),transparent 70%);pointer-events:none}
+.gallery .aw:hover .mat{transform:translateY(-6px);box-shadow:0 44px 80px -24px rgba(0,0,0,.85),0 0 0 1px rgba(245,154,35,.5)}
+.gallery .aw.feat{grid-column:1/-1}.gallery .aw.feat .mat{padding:0;background:#141211}.gallery .aw.feat img{aspect-ratio:auto}
+.gallery .aw img{aspect-ratio:4/5;object-fit:cover;box-shadow:inset 0 0 0 1px rgba(0,0,0,.08)}
+.gallery .aw figcaption{padding:16px 2px 0;border-left:2px solid var(--orange);margin-top:18px;padding-left:12px}
+.gallery .aw b{color:#fff;font-size:19px}
+.gallery .aw span{color:#a69c94;letter-spacing:.04em}
+.museum{margin:70px auto 0;max-width:820px;text-align:center;font-family:var(--serif);font-size:24px;line-height:1.5;color:#f1ebe4;font-style:italic}
+.museum .zh{display:block;font-style:normal;font-size:15px;color:#a69c94;margin-top:12px}
+
+
+.logo{gap:12px;color:var(--ink)}
+.logo .hat{width:40px;height:30px;color:var(--ink);flex:none}
+.logo .wm{color:inherit;margin-left:0;font-family:'Playfair Display',serif;font-weight:500;font-size:19px;letter-spacing:.28em}
+.logo .wz{margin-left:0;font-family:var(--zh);font-size:13px;color:var(--mute);border-left:1px solid var(--line);padding-left:12px}
+.links{gap:4px}
+.links a{display:flex;flex-direction:column;align-items:center;padding:6px 11px;border-radius:10px;font-size:13.5px;line-height:1.2;transition:.2s}
+.links a small{font-family:var(--zh);font-size:11px;color:var(--mute)}
+.links a:hover,.links a.on{background:var(--pale);color:var(--deep)}
+.links a.on small{color:var(--deep)}
+.burger{display:none;background:none;border:0;width:44px;height:44px;cursor:pointer;flex-direction:column;justify-content:center;gap:5px;align-items:center}
+.burger span{display:block;width:22px;height:2px;background:var(--ink);transition:.25s}
+.burger.x span:nth-child(1){transform:translateY(7px) rotate(45deg)}.burger.x span:nth-child(2){opacity:0}.burger.x span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.mmenu{display:none;border-top:1px solid var(--line);background:var(--cream);padding:8px 20px 18px}
+.mmenu.open{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.mmenu a{padding:14px 12px;border-radius:12px;background:var(--paper);border:1px solid var(--line);text-decoration:none;font-weight:600;font-size:15px;display:flex;gap:8px;align-items:baseline}
+.mmenu a b{color:var(--orange);font-size:12px}
+.mmenu a small{font-family:var(--zh);color:var(--mute);font-weight:500;margin-left:auto}
+section[id],header[id]{scroll-margin-top:80px}
+.kicker .num{display:inline-grid;place-items:center;min-width:30px;height:22px;padding:0 6px;margin-right:10px;border-radius:6px;background:var(--orange);color:#fff;font-size:11.5px;letter-spacing:.08em}
+.glance{padding:70px 0 0}
+.gcard{display:grid;grid-template-columns:1fr 1.25fr;gap:50px;background:var(--paper);border:1px solid var(--line);border-radius:26px;padding:46px;box-shadow:0 30px 60px -40px rgba(21,19,18,.35)}
+.gav{width:96px;height:96px;border-radius:50%;object-fit:cover;border:3px solid var(--sun);margin:10px 0 4px;display:block}
+.gcard h3{font-family:var(--serif);font-size:38px;line-height:1.1;margin:6px 0 14px}
+.gcard h3 span{display:block;font-family:var(--zh);font-size:17px;color:var(--mute);font-weight:500;margin-top:6px;letter-spacing:.08em}
+.gl p{color:var(--ink2);font-size:16px}
+.gbtns{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.gr{display:grid;grid-template-columns:1fr 1fr;gap:0 28px;margin:0}
+.gr div{padding:14px 0;border-top:1px solid var(--line)}
+.gr dt{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--deep);font-weight:600;margin-bottom:4px}
+.gr dd{margin:0;font-size:14.5px;font-weight:500;color:var(--ink)}
+.jump{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:22px}
+.jump>span{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);font-weight:600;margin-right:6px}
+.jump a{text-decoration:none;font-size:13.5px;font-weight:600;padding:9px 14px;border-radius:999px;background:var(--paper);border:1px solid var(--line);transition:.2s}
+.jump a b{color:var(--orange);margin-right:6px;font-size:12px}
+.jump a small{font-family:var(--zh);color:var(--mute);font-weight:500}
+.jump a:hover{border-color:var(--orange);color:var(--deep)}
+footer{background:var(--ink);color:#d8d0c9;border-top:0;padding:56px 0 26px}
+footer .wrap{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;align-items:flex-start}
+footer .logo{color:#FBF6EE}footer .logo .hat{color:#FBF6EE}
+.fl p{margin-top:14px;font-size:13.5px;line-height:1.7;color:#a69c94}
+.fn{display:grid;grid-template-columns:repeat(4,auto);gap:10px 34px}
+.fn a{text-decoration:none;font-size:14px;color:#e8e0d8}.fn a:hover{color:var(--sun)}
+.copyline{margin-top:34px;padding-top:20px;border-top:1px solid rgba(255,255,255,.1);font-size:12.5px;color:#8a817a}
+.totop{position:fixed;right:22px;bottom:22px;width:48px;height:48px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;text-decoration:none;font-size:20px;box-shadow:0 12px 28px -10px rgba(0,0,0,.5);opacity:0;pointer-events:none;transition:.3s;z-index:60}
+.totop.on{opacity:1;pointer-events:auto}.totop:hover{background:var(--orange)}
+@media (max-width:1180px){.links a small{display:none}.links a{padding:8px 9px}}
+@media (max-width:980px){.burger{display:flex}.navcta{display:none}.gcard{grid-template-columns:1fr;padding:30px}.logo .wz{display:none}}
+@media (max-width:620px){.h1zh{font-size:17px;letter-spacing:.12em}.eyebrow{font-size:11px;letter-spacing:.16em}.gr{grid-template-columns:1fr}.fn{grid-template-columns:repeat(2,auto)}.logo .wm{font-size:16px;letter-spacing:.22em}}
+
+
+.lang{display:inline-flex;align-items:center;gap:4px;border:1.5px solid var(--ink);background:transparent;border-radius:999px;padding:8px 14px;font:600 13px var(--sans);cursor:pointer;color:var(--mute);margin:0;flex:none;white-space:nowrap}
+.lang i{font-style:normal;color:var(--line)}
+.lang span.on{color:var(--ink)}
+.lang:hover{border-color:var(--orange)}
+html[lang=zh] .h2zh,html[lang=zh] .jz,html[lang=zh] .cz,html[lang=zh] .ez,html[lang=zh] .z,html[lang=zh] .sz,html[lang=zh] .tz,html[lang=zh] .qz,html[lang=zh] .lead-zh,html[lang=zh] .zhp,html[lang=zh] .links a small,html[lang=zh] .mmenu a small,html[lang=zh] .jump a small,html[lang=zh] .badge .t small{display:none}
+html[lang=zh] body{font-family:'Noto Sans SC','PingFang SC','Microsoft YaHei',var(--sans)}
+html[lang=zh] .lead{font-size:18px;line-height:1.9}
+@media (max-width:980px){.lang{margin-right:4px;padding:7px 11px}}
+
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .8s ease,transform .8s ease}
+.reveal.in{opacity:1;transform:none}
+
+@media (max-width:980px){
+  .links{display:none}
+  .hero .wrap,.about,.contact{grid-template-columns:1fr}
+  .portrait{max-width:420px;margin:0 auto;width:100%}
+  .badge{left:10px}
+  .stats .wrap{grid-template-columns:repeat(2,1fr)}
+  .stat{border-bottom:1px solid rgba(255,255,255,.1)}
+  .grid3,.edu,.skills{grid-template-columns:1fr 1fr}
+  .pf{grid-template-columns:1fr 1fr}
+  .job{grid-template-columns:1fr;gap:10px}
+}
+@media (max-width:620px){
+  .artgrid{grid-template-columns:1fr}
+  .hero:before{width:360px;height:360px;right:-160px;top:-120px;opacity:.55}
+  .grid3,.edu,.skills,.pf{grid-template-columns:1fr}
+  .t1,.t5{grid-column:span 1}
+  .t1{grid-row:span 1}
+  section.s{padding:80px 0}
+  .stats .wrap{grid-template-columns:1fr 1fr}
+  .stat .n{font-size:40px}
+  nav .btn{display:none}
+}
+@media print{nav,.cta,.copy{display:none}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="杨林 Evelyn — back to top"><svg class="hat" viewBox="0 0 120 90" aria-hidden="true"><path d="M25 58 C22 27 42 9 61 9 C82 9 100 27 97 58 Z" fill="currentColor"/><path d="M9 62 C30 51 92 51 113 62 C114.5 68 109 72.5 101 70.5 C84 63.5 38 63.5 21 72.5 C13 74 7.5 68.5 9 62 Z" fill="currentColor"/><path d="M26.5 49 C48 42.5 75 42.5 96 49" fill="none" stroke="#EE6A1F" stroke-width="7" stroke-linecap="round"/></svg><span class="wm">EVELYN</span><span class="wz">杨林</span></a>
+    <div class="links"><a href="#about" data-s="about">About<small>关于</small></a><a href="#strengths" data-s="strengths">Strengths<small>优势</small></a><a href="#experience" data-s="experience">Experience<small>经历</small></a><a href="#education" data-s="education">Education<small>学历</small></a><a href="#art" data-s="art">Art<small>作品</small></a><a href="#work" data-s="work">Projects<small>项目</small></a><a href="#skills" data-s="skills">Skills<small>技能</small></a><a href="#contact" data-s="contact">Contact<small>联系</small></a></div>
+    <button class="lang" id="langBtn" type="button" aria-label="Switch language 切换语言"><span data-l="en">EN</span><i>/</i><span data-l="zh">中文</span></button>
+    <a class="btn btn-o navcta" href="#contact">Hire Me · 联系我</a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mmenu" id="mmenu"><a href="#about"><b>01</b>About<small>关于</small></a><a href="#strengths"><b>02</b>Strengths<small>优势</small></a><a href="#experience"><b>03</b>Experience<small>经历</small></a><a href="#education"><b>04</b>Education<small>学历</small></a><a href="#art"><b>05</b>Art<small>作品</small></a><a href="#work"><b>06</b>Projects<small>项目</small></a><a href="#skills"><b>07</b>Skills<small>技能</small></a><a href="#contact"><b>08</b>Contact<small>联系</small></a></div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Art Director · Art Portfolio Mentor · New York</div>
+      <h1>杨林 <em>Evelyn</em></h1>
+      <div class="h1zh">艺术作品集导师 · Art Director</div>
+      <p class="lead">I bring art, education and marketing together — 12 years teaching and leading art programs, a track record of filling classrooms through enrollment marketing, and the design skills to build the brand, website and content myself.</p>
+      <p class="lead-zh zh">12年艺术教育 · 招生与营销 · 办学管理 · 设计全能 · 中英双语</p>
+      <div class="cta">
+        <a class="btn btn-o" href="#contact">Contact Me 联系我 →</a>
+        <a class="btn btn-k" href="#experience">View Experience 查看经历</a>
+      </div>
+      <div class="tags">
+        <span class="tag">MBA</span><span class="tag">B.A. Fashion Design &amp; Engineering</span><span class="tag">Fine Art Studies</span><span class="tag">AMS Montessori Credential</span><span class="tag">Mandarin · English</span>
+      </div>
+    </div>
+    <div class="reveal" style="position:relative">
+      <div class="portrait"><img src="art/me_hat_s.jpg" srcset="art/me_hat_s.jpg 760w, art/me_hat.jpg 1400w" sizes="(max-width:980px) 90vw, 460px" alt="杨林 Evelyn, Art Director" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 20%"><div class="plate"><i>杨林 Evelyn</i> · Art Director</div></div>
+      <div class="badge"><div class="n">200+</div><div class="t">Students I enrolled<br>at my own school<small>亲自招生学生</small></div></div>
+    </div>
+  </div>
+</header>
+
+<div class="stats">
+  <div class="wrap">
+    <div class="stat reveal"><div class="n">12</div><div class="l">Years in art education</div><div class="z">艺术教育</div></div>
+    <div class="stat reveal"><div class="n">12</div><div class="l">Years in marketing</div><div class="z">市场营销</div></div>
+    <div class="stat reveal"><div class="n">8</div><div class="l">Years of school management</div><div class="z">学校管理</div></div>
+    <div class="stat reveal"><div class="n">6</div><div class="l">Years running my own school &amp; studio</div><div class="z">自主办学</div></div>
+    <div class="stat reveal"><div class="n">2</div><div class="l">Languages, fully fluent</div><div class="z">中英双语</div></div>
+  </div>
+</div>
+
+
+<section class="glance" id="glance">
+  <div class="wrap">
+    <div class="gcard reveal">
+      <div class="gl">
+        <div class="kicker">At a Glance · 一页速览</div>
+        <img class="gav" src="art/me_hat_av.jpg" alt="杨林 Evelyn">
+        <h3>杨林 Evelyn <span>艺术作品集导师 · Art Director</span></h3>
+        <p>Bilingual art education leader who combines teaching, enrollment, marketing and design — ready for admissions, art-education, marketing and gallery roles in New York.</p>
+        <div class="gbtns"><a class="btn btn-o" href="#contact">Contact Me →</a><a class="btn btn-k" href="#experience">Experience</a></div>
+      </div>
+      <dl class="gr">
+        <div><dt>Based in · 所在地</dt><dd>New York, NY</dd></div>
+        <div><dt>Languages · 语言</dt><dd>Mandarin (native) · English (fluent)</dd></div>
+        <div><dt>Education · 学历</dt><dd>MBA · B.A. Fashion Design &amp; Engineering · Fine Art Studies</dd></div>
+        <div><dt>Credentials · 资质</dt><dd>AMS Montessori Credential · Senior Image Designer</dd></div>
+        <div><dt>Track record · 成绩</dt><dd>Personally enrolled 200+ students · founded &amp; ran a school and art studio for 6 years</dd></div>
+        <div><dt>Core skills · 核心能力</dt><dd>Admissions &amp; enrollment · marketing &amp; social media · web, brand &amp; video design · curriculum</dd></div>
+      </dl>
+    </div>
+    <div class="jump reveal"><span>Jump to · 快速跳转</span><a href="#about"><b>01</b>About <small>关于</small></a><a href="#strengths"><b>02</b>Strengths <small>优势</small></a><a href="#experience"><b>03</b>Experience <small>经历</small></a><a href="#education"><b>04</b>Education <small>学历</small></a><a href="#art"><b>05</b>Art <small>作品</small></a><a href="#work"><b>06</b>Projects <small>项目</small></a><a href="#skills"><b>07</b>Skills <small>技能</small></a><a href="#contact"><b>08</b>Contact <small>联系</small></a></div>
+  </div>
+</section>
+
+<section class="s" id="about">
+  <div class="wrap">
+    <div class="sh reveal">
+      <div><div class="kicker"><span class="num">01</span>About</div><h2 data-zh="一位亲手<em>打造</em><br>学校与品牌的艺术家">An artist who <em>builds</em><br>schools &amp; brands</h2><div class="h2zh">关于我</div></div>
+    </div>
+    <div class="about">
+      <div class="reveal">
+        <p class="big" data-zh="我从中学开始学艺术，本科学<em>服装设计与工程</em>，又专攻纯艺术两年，后来在美国读完 <em>MBA</em>——所以我看教育，既用创作者的眼光，<em>也</em>用管理者的眼光。">I've studied art since middle school, trained in <em>fashion design &amp; engineering</em> and fine art, and earned an <em>MBA</em> in the U.S. — so I see education through the eyes of a creator <em>and</em> a manager.</p>
+      </div>
+      <div class="reveal">
+        <p>Over 12 years in U.S. private and public schools I have taught, designed curricula, and led programs. I founded and ran my own Montessori school and art studio for six years — handling everything from setup and management to sales and enrollment.</p>
+        <p>Today I lead online marketing and enrollment for art and Montessori schools, build their websites and social channels, and design the visuals and videos myself. I'm especially strong at connecting with Chinese-speaking families and guiding students toward top U.S. art schools.</p>
+        <p class="zhp">我从中学开始学习艺术，本科服装设计与工程，纯艺术进修两年，美国MBA硕士。12年在美国公私立学校执教与办学：从创办、管理到招生，一手打造自己的蒙台梭利学校和艺术工作室。我擅长把艺术、教育和营销结合在一起，尤其擅长服务华人家庭。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="s bg-paper" id="strengths">
+  <div class="wrap">
+    <div class="sh reveal">
+      <div><div class="kicker"><span class="num">02</span>Core Strengths</div><h2 data-zh="我能为团队<em>带来什么</em>">What I bring <em>to your team</em></h2><div class="h2zh">核心优势</div></div>
+      <p>Six areas where I deliver results on day one — from a full enrollment pipeline to the design work behind it.</p>
+    </div>
+    <div class="grid3">
+      <div class="card reveal">
+        <div class="ic"><svg viewBox="0 0 24 24"><path d="M3 20h18M6 16l4-5 3 3 5-7"/><path d="M15 7h3v3"/></svg></div>
+        <h3>Enrollment &amp; Admissions</h3><div class="cz">招生与录取</div>
+        <ul>
+          <li>Enrollment for art, Montessori and music schools in CA, FL and RI</li>
+          <li>Directly enrolled 200+ students at my own school and studio</li>
+          <li>Full funnel: inquiry, consultation, tours, follow-up, close</li>
+          <li>Especially strong with Chinese-speaking families</li>
+        </ul>
+      </div>
+      <div class="card reveal">
+        <div class="ic"><svg viewBox="0 0 24 24"><path d="M4 11v2a2 2 0 0 0 2 2h1l4 4V5L7 9H6a2 2 0 0 0-2 2z"/><path d="M15 9a4 4 0 0 1 0 6M18 6a8 8 0 0 1 0 12"/></svg></div>
+        <h3>Marketing &amp; Social Media</h3><div class="cz">市场营销与新媒体</div>
+        <ul>
+          <li>Run all online marketing for two schools</li>
+          <li>Facebook, Instagram, TikTok, YouTube, Google Business, 小红书, WeChat</li>
+          <li>Meta &amp; Google ad planning, email follow-up</li>
+          <li>Events, field marketing &amp; partnerships in person</li>
+        </ul>
+      </div>
+      <div class="card reveal">
+        <div class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4M7 9h5M7 12h8"/></svg></div>
+        <h3>Design, Web &amp; Video</h3><div class="cz">设计 · 网站 · 视频</div>
+        <ul>
+          <li>Build and maintain school &amp; artist websites</li>
+          <li>Brand identity (VI), posters, mascots, print</li>
+          <li>Promo videos, theme songs, UX/UI design</li>
+          <li>Fluent in design, office and AI tools</li>
+        </ul>
+      </div>
+      <div class="card reveal">
+        <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18c1 0 1.5-.7 1.5-1.5 0-1.2-1-1.5-1-2.5S13.3 15 14.5 15H17a4 4 0 0 0 4-4c0-4.4-4-8-9-8z"/><circle cx="7.5" cy="11" r="1"/><circle cx="10" cy="7.5" r="1"/><circle cx="15" cy="7.5" r="1"/></svg></div>
+        <h3>Art Education &amp; Portfolios</h3><div class="cz">艺术教育与作品集</div>
+        <ul>
+          <li>Art-portfolio mentoring for U.S. art-school applicants</li>
+          <li>Course design, incl. my "Drawing Music" (画音乐) system</li>
+          <li>Blend Montessori method with art curriculum</li>
+          <li>Organize student art exhibitions</li>
+        </ul>
+      </div>
+      <div class="card reveal">
+        <div class="ic"><svg viewBox="0 0 24 24"><path d="M3 21V9l9-6 9 6v12"/><path d="M9 21v-6h6v6"/></svg></div>
+        <h3>School Leadership</h3><div class="cz">学校管理</div>
+        <ul>
+          <li>8 years of school management experience</li>
+          <li>Founded &amp; ran a school and studio for 6 years</li>
+          <li>Plan and run school events independently</li>
+          <li>Former customer-service center supervisor, Fortune Global 500</li>
+        </ul>
+      </div>
+      <div class="card reveal">
+        <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10z"/></svg></div>
+        <h3>Inclusive &amp; Special Education</h3><div class="cz">融合与特殊教育</div>
+        <ul>
+          <li>3 years of art programs for autistic children</li>
+          <li>Designed an inclusive (non-clinical) art course</li>
+          <li>Special-education substitute teacher, public schools</li>
+          <li>Patient, structured, child-centered approach</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="s" id="experience">
+  <div class="wrap">
+    <div class="sh reveal">
+      <div><div class="kicker"><span class="num">03</span>Experience</div><h2 data-zh="我的<em>工作成绩</em>">Where I've <em>made an impact</em></h2><div class="h2zh">工作经历</div></div>
+      <p>Teaching, enrollment, marketing and management in U.S. private and public schools — plus a corporate foundation in customer service.</p>
+    </div>
+    <div class="tl">
+      <div class="job reveal">
+        <div><div class="when">2026 — Present</div><div class="where">Orlando, FL</div></div>
+        <div>
+          <h3>Marketing &amp; Enrollment · Art &amp; Montessori Teacher</h3>
+          <div class="org">Growing Minds Montessori School</div><div class="jz">市场与招生负责人 · 艺术蒙氏教师</div>
+          <ul>
+            <li>Run the school's marketing and enrollment, including Facebook, Instagram, TikTok and Google Business Profile.</li>
+            <li>Produce promotional videos and parent communications; follow up on every family inquiry.</li>
+            <li>Run a Montessori classroom with art as its signature, and launched the school's art classes.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job reveal">
+        <div><div class="when">2019 — Present</div><div class="where">New York &amp; Rhode Island</div></div>
+        <div>
+          <h3>Art Portfolio Mentor · Enrollment &amp; Marketing Lead</h3>
+          <div class="org">Art-portfolio academy (New York &amp; Rhode Island)</div><div class="jz">艺术作品集导师 · 招生与营销</div>
+          <ul>
+            <li>Handle online enrollment, consultations and parent communication for portfolio and art programs.</li>
+            <li>Lead all online marketing: website design, promotional videos, theme-song creation and brand image design.</li>
+            <li>Mentor art-portfolio students one-on-one online; assist online portfolio classes and design the course materials.</li>
+            <li>Designed an inclusive art course for students with special needs.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job reveal">
+        <div><div class="when">Ongoing</div><div class="where">New York</div></div>
+        <div>
+          <h3>Artist Representative &amp; Web Designer</h3>
+          <div class="org">Painter Chengju Li — Territory Painting</div><div class="jz">艺术家经纪与品牌推广</div>
+          <ul>
+            <li>Built the artist's website, chengjuli.com, and run his video channel.</li>
+            <li>Handle brand marketing and promotion for his custom commissions and painting sales.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job reveal">
+        <div><div class="when">6 Years</div><div class="where">Irvine, CA</div></div>
+        <div>
+          <h3>Founder &amp; Director</h3>
+          <div class="org">Novel Park Montessori · Own Art Studio</div><div class="jz">创办人兼校长 · 蒙台梭利学校与艺术工作室</div>
+          <ul>
+            <li>Founded and ran a Montessori school and an art-painting studio — from setup and licensing to management and sales.</li>
+            <li>Personally enrolled 200+ students across both programs.</li>
+            <li>Also handled enrollment for a Montessori school and a music school in Irvine.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job reveal">
+        <div><div class="when">Prior Roles</div><div class="where">New York · California · Florida</div></div>
+        <div>
+          <h3>Montessori &amp; Art Teacher</h3>
+          <div class="org">Rainbow School (NY) · LePort Montessori · Lake Forest Children's House Montessori · Diamond Bar Montessori</div><div class="jz">蒙台梭利与艺术教师</div>
+          <ul>
+            <li>Taught in Montessori classrooms; also ran enrollment at Lake Forest Children's House Montessori.</li>
+            <li>As art teacher at a San Diego music &amp; arts school, designed the "Drawing Music" (画音乐) course system.</li>
+            <li>Special-education substitute teacher in Orange County Public Schools (FL).</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job reveal">
+        <div><div class="when">Earlier Career</div><div class="where">China</div></div>
+        <div>
+          <h3>Customer Service Center Supervisor</h3>
+          <div class="org">Fortune Global 500 company</div><div class="jz">世界500强企业 · 客服中心主管</div>
+          <ul>
+            <li>Managed customer files and research for 80 gas stations and about 10,000 customers.</li>
+            <li>Led investment-attraction management, marketing events, and full pre-sale, in-sale and after-sale service.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="s bg-paper" id="education">
+  <div class="wrap">
+    <div class="sh reveal">
+      <div><div class="kicker"><span class="num">04</span>Education &amp; Credentials</div><h2 data-zh="<em>艺术、设计</em><br>与商业复合背景">Trained in <em>art, design</em><br>&amp; business</h2><div class="h2zh">教育与资质</div></div>
+    </div>
+    <div class="edu">
+      <div class="ed reveal"><div class="deg">Master's</div><h4>MBA — Business Administration</h4><p>Two-year U.S. program</p><div class="ez">研究生 MBA 工商管理 2年</div></div>
+      <div class="ed reveal"><div class="deg">Bachelor's</div><h4>Fashion Design &amp; Engineering</h4><p>Four-year bachelor's degree</p><div class="ez">本科服装设计与工程 · 4年</div></div>
+      <div class="ed reveal"><div class="deg">Fine Art</div><h4>Fine Art Studies</h4><p>Fine art studies · 2 years</p><div class="ez">纯艺术 · 2年</div></div>
+      <div class="ed reveal"><div class="deg">Credentials</div><h4>AMS Montessori Credential</h4><p>Senior Image Designer certification · Art-portfolio advanced study, Rhode Island</p><div class="ez">AMS教师资格认证 · 高级形象设计师</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="quote">
+  <div class="wrap reveal">
+    <blockquote data-zh="「每个孩子都能学会解决问题、自信地创造——更学会<em>让自己快乐</em>。」">"Every child can learn to solve problems, create with confidence — and <em>make themselves happy</em>."</blockquote>
+    <div class="qz">让孩子学会独立、自主、创造与自信 —— 更学会让自己快乐</div>
+  </div>
+</section>
+
+
+<section class="s gallery" id="art">
+  <div class="wrap">
+    <div class="sh reveal">
+      <div><div class="kicker"><span class="num">05</span>Hand-drawn Art</div><h2 data-zh="<em>手绘</em>作品精选">Selected <em>hand-drawn</em> work</h2><div class="h2zh">杨林 手绘精选 · 实力派作品</div></div>
+      <p>A curated selection of my finished works — mixed media, acrylic portraiture, fashion illustration and drawing, all made by hand. Tap any work to view it full size.</p>
+    </div>
+    <div class="artgrid"><figure class="aw reveal feat" data-i="0"><div class="mat"><img loading="lazy" src="art/f01_s.jpg" alt="Wild Symphony — Mixed media: colored pencil, graphite, ink & acrylic, by 杨林 Evelyn"></div><figcaption><b>Wild Symphony</b><span>万物共生 · 综合材料 · Mixed media: colored pencil, graphite, ink & acrylic</span></figcaption></figure><figure class="aw reveal" data-i="1"><div class="mat"><img loading="lazy" src="art/a01_s.jpg" alt="Portrait in Red — Acrylic on canvas, by 杨林 Evelyn"></div><figcaption><b>Portrait in Red</b><span>丙烯肖像 · Acrylic on canvas</span></figcaption></figure><figure class="aw reveal" data-i="2"><div class="mat"><img loading="lazy" src="art/a02_s.jpg" alt="Bohemian Runway — Fashion illustration, by 杨林 Evelyn"></div><figcaption><b>Bohemian Runway</b><span>服装设计效果图 · Fashion illustration</span></figcaption></figure><figure class="aw reveal" data-i="3"><div class="mat"><img loading="lazy" src="art/a07_s.jpg" alt="Portrait Study — Graphite, by 杨林 Evelyn"></div><figcaption><b>Portrait Study</b><span>人物肖像 · 素描 · Graphite</span></figcaption></figure></div>
+    <p class="museum reveal" data-zh="「教艺术，意味着我自己也要每周坚持画画——我教学生的每一种画法，我都亲手画过。」">"Teaching art means I still draw every week — the same studies I guide my students through." <span class="zh">从中学开始画画，至今坚持手绘 —— 我教的每一种画法，我都亲手画过。</span></p>
+</div>
+</section>
+<div class="lb" id="lb" aria-hidden="true"><button class="lbx" aria-label="Close">×</button><button class="lbp" aria-label="Previous">‹</button><figure><img id="lbimg" alt=""><figcaption id="lbcap"></figcaption></figure><button class="lbn" aria-label="Next">›</button></div>
+
+<section class="s" id="work">
+  <div class="wrap">
+    <div class="sh reveal">
+      <div><div class="kicker"><span class="num">06</span>Projects</div><h2 data-zh="我<em>做过</em>的项目">Projects I've <em>built</em></h2><div class="h2zh">项目成果 · 设计与营销作品</div></div>
+      <p>I don't just plan the marketing — I design and produce it. A cross-section of what I create.</p>
+    </div>
+    <div class="pf">
+      <div class="tile t1 reveal">
+        <svg class="deco" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><circle cx="300" cy="90" r="120" fill="#fff" opacity=".12"/><circle cx="300" cy="90" r="70" fill="#fff" opacity=".14"/><path d="M0 300 C80 260 160 330 240 290 C300 260 360 290 400 270" stroke="#fff" stroke-width="2" fill="none" opacity=".35"/></svg>
+        <div class="num">01</div>
+        <div class="tt">Websites &amp; Digital Presence</div>
+        <div class="td">School and artist websites I designed, built and maintain — including chengjuli.com.</div>
+        <div class="tz">网站设计与运营</div>
+        <a class="lk" href="https://chengjuli.com" target="_blank" rel="noopener">Visit chengjuli.com ↗</a>
+      </div>
+      <div class="tile t2 reveal"><div class="num">02</div><div class="tt">Promo Videos</div><div class="td">Daily school &amp; brand videos</div><div class="tz">宣传视频</div></div>
+      <div class="tile t3 reveal"><div class="num">03</div><div class="tt">Brand Identity</div><div class="td">Logos, VI, mascots</div><div class="tz">品牌视觉 · 吉祥物</div></div>
+      <div class="tile t4 reveal"><div class="num">04</div><div class="tt">Posters &amp; Print</div><div class="td">Ads, flyers, event posters</div><div class="tz">海报与印刷品</div></div>
+      <div class="tile t3 reveal"><div class="num">05</div><div class="tt">Theme Songs</div><div class="td">Original school songs</div><div class="tz">主题曲创作</div></div>
+      <div class="tile t5 reveal"><div class="num">06</div><div class="tt">Curriculum &amp; Courses</div><div class="td">"Drawing Music" system, inclusive art course, Montessori-art curriculum, online portfolio course materials</div><div class="tz">课程体系设计</div></div>
+      <a class="tile t4 reveal" href="#art"><div class="num">07</div><div class="tt">Fashion &amp; Hand-drawn Art</div><div class="td">Selected works ↑</div><div class="tz">服装设计 · 手绘作品</div></a>
+      <div class="tile t2 reveal"><div class="num">08</div><div class="tt">Art Exhibitions</div><div class="td">Student shows I organized</div><div class="tz">策划艺术展</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="s bg-paper" id="skills">
+  <div class="wrap">
+    <div class="sh reveal">
+      <div><div class="kicker"><span class="num">07</span>Skills &amp; Tools</div><h2 data-zh="高效可靠，<em>精通技术</em>">Fast, efficient, <em>tech-fluent</em></h2><div class="h2zh">技能与工具</div></div>
+      <p>Responsible, quick to learn, and comfortable owning a project end to end.</p>
+    </div>
+    <div class="skills">
+      <div class="sk reveal"><h4>Design</h4><div class="sz">平面与界面设计 — posters, VI, UX/UI</div><div class="chips"><span class="chip">Canva</span><span class="chip">UX/UI design</span><span class="chip">Brand VI</span><span class="chip">Print layout</span></div></div>
+      <div class="sk reveal"><h4>Web &amp; Video</h4><div class="sz">网站与视频 — build sites, edit videos</div><div class="chips"><span class="chip">Webflow</span><span class="chip">Readdy.ai</span><span class="chip">Descript</span><span class="chip">YouTube Studio</span></div></div>
+      <div class="sk reveal"><h4>Marketing</h4><div class="sz">营销投放 — ads, email, social</div><div class="chips"><span class="chip">Meta Ads</span><span class="chip">Google Ads</span><span class="chip">Email campaigns</span><span class="chip">Social scheduling</span></div></div>
+      <div class="sk reveal"><h4>Office &amp; AI</h4><div class="sz">办公与AI — docs, data, automation</div><div class="chips"><span class="chip">Google Workspace</span><span class="chip">Microsoft Office</span><span class="chip">AI tools</span><span class="chip">ChatGPT · Midjourney</span></div></div>
+    </div>
+    <div class="lang reveal">
+      <div class="lg"><b>Mandarin Chinese</b><span>NATIVE · 母语</span></div>
+      <div class="lg"><b>English</b><span>FLUENT · 流利</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="s" id="contact">
+  <div class="wrap contact">
+    <div class="reveal">
+      <div class="kicker"><span class="num">08</span>Contact</div>
+      <h2 data-zh="期待<em>与您合作</em>">Let's <em>work together</em></h2>
+      <div class="h2zh">期待与您合作</div>
+      <p style="margin-top:22px;color:var(--ink2);font-size:17px;max-width:480px">Open to full-time roles in New York — universities, galleries and art institutions, admissions and enrollment, and art-education marketing.</p>
+      <div class="seek">
+        <h4>Roles I'm a strong fit for</h4>
+        <div class="tags" style="margin-top:0">
+          <span class="tag">Admissions &amp; Enrollment</span><span class="tag">Art Education Programs</span><span class="tag">Marketing &amp; Communications</span><span class="tag">Gallery &amp; Art Sales</span><span class="tag">Chinese Market Outreach</span>
+        </div>
+      </div>
+    </div>
+    <div class="cbox reveal">
+      <div class="crow">
+        <div class="ci"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div>
+        <div><small>Email</small><a href="mailto:Evelynyang529@gmail.com"><b>Evelynyang529@gmail.com</b></a></div>
+        <button class="copy" data-copy="Evelynyang529@gmail.com">Copy</button>
+      </div>
+      <div class="crow">
+        <div class="ci"><svg viewBox="0 0 24 24"><path d="M4 20l1.3-4A8 8 0 1 1 8 18.7z"/><path d="M9 9.5c.5 2 2.5 4 4.5 4.5l1-1.2 2 .8"/></svg></div>
+        <div><small>WhatsApp</small><a href="https://wa.me/19496561150" target="_blank" rel="noopener"><b>Message me on WhatsApp</b></a></div>
+      </div>
+      <div class="crow">
+        <div class="ci"><svg viewBox="0 0 24 24"><path d="M12 21s-6-5.5-6-11a6 6 0 0 1 12 0c0 5.5-6 11-6 11z"/><circle cx="12" cy="10" r="2.2"/></svg></div>
+        <div><small>Location</small><b>New York, NY</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fl"><a class="logo" href="#top" aria-label="Back to top"><svg class="hat" viewBox="0 0 120 90" aria-hidden="true"><path d="M25 58 C22 27 42 9 61 9 C82 9 100 27 97 58 Z" fill="currentColor"/><path d="M9 62 C30 51 92 51 113 62 C114.5 68 109 72.5 101 70.5 C84 63.5 38 63.5 21 72.5 C13 74 7.5 68.5 9 62 Z" fill="currentColor"/><path d="M26.5 49 C48 42.5 75 42.5 96 49" fill="none" stroke="#EE6A1F" stroke-width="7" stroke-linecap="round"/></svg><span class="wm">EVELYN</span></a><p>杨林 Evelyn · 艺术作品集导师 Art Director<br>New York, NY · Evelynyang529@gmail.com</p></div>
+    <div class="fn"><a href="#about">About</a><a href="#strengths">Strengths</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#art">Art</a><a href="#work">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div>
+  </div>
+  <div class="wrap copyline">© 2026 杨林 Evelyn. All artwork shown is my own.</div>
+</footer>
+<a class="totop" id="totop" href="#top" aria-label="Back to top">↑</a>
+
+<script>
+(function(){
+
+  var W=[{"src": "art/f01.jpg", "t": "Wild Symphony", "z": "万物共生 · 综合材料", "m": "Mixed media: colored pencil, graphite, ink & acrylic"}, {"src": "art/a01.jpg", "t": "Portrait in Red", "z": "丙烯肖像", "m": "Acrylic on canvas"}, {"src": "art/a02.jpg", "t": "Bohemian Runway", "z": "服装设计效果图", "m": "Fashion illustration"}, {"src": "art/a07.jpg", "t": "Portrait Study", "z": "人物肖像 · 素描", "m": "Graphite"}],cur=0,lb=document.getElementById('lb'),li=document.getElementById('lbimg'),lc=document.getElementById('lbcap');
+  function show(i){cur=(i+W.length)%W.length;var w=W[cur];li.src=w.src;li.alt=w.t+' by 杨林 Evelyn';lc.innerHTML=w.t+'<small>'+w.z+' · '+w.m+' · 杨林 Evelyn</small>';lb.classList.add('on');lb.setAttribute('aria-hidden','false')}
+  function hide(){lb.classList.remove('on');lb.setAttribute('aria-hidden','true')}
+  document.querySelectorAll('.aw').forEach(function(f){f.addEventListener('click',function(){show(+f.dataset.i)})});
+  lb.querySelector('.lbx').onclick=hide;lb.querySelector('.lbp').onclick=function(e){e.stopPropagation();show(cur-1)};lb.querySelector('.lbn').onclick=function(e){e.stopPropagation();show(cur+1)};
+  lb.addEventListener('click',function(e){if(e.target===lb)hide()});
+  document.addEventListener('keydown',function(e){if(!lb.classList.contains('on'))return;if(e.key==='Escape')hide();if(e.key==='ArrowLeft')show(cur-1);if(e.key==='ArrowRight')show(cur+1)});
+
+
+  var ZH={"About": "关于", "Strengths": "优势", "Experience": "经历", "Education": "学历", "Art": "作品", "Projects": "项目", "Skills": "技能", "Contact": "联系", "Hire Me · 联系我": "联系我", "Art Director · Art Portfolio Mentor · New York": "艺术作品集导师 · Art Director · 纽约", "I bring art, education and marketing together — 12 years teaching and leading art programs, a track record of filling classrooms through enrollment marketing, and the design skills to build the brand, website and content myself.": "我把艺术、教育和营销融为一体——12年艺术教学与项目管理经验，用招生营销把教室坐满，品牌、网站和内容全部亲手设计制作。", "Contact Me 联系我 →": "联系我 →", "View Experience 查看经历": "查看经历", "MBA": "MBA 工商管理硕士", "B.A. Fashion Design & Engineering": "服装设计与工程 本科", "Fine Art Studies": "纯艺术进修", "AMS Montessori Credential": "AMS 蒙台梭利教师认证", "Mandarin · English": "中英双语", "· Art Director": "· 艺术作品集导师", "Years in art education": "年艺术教育", "Years in marketing": "年市场营销", "Years of school management": "年学校管理", "Years running my own school & studio": "年自主办学", "Languages, fully fluent": "种语言，流利自如", "At a Glance · 一页速览": "一页速览", "Art Education Advisor · 艺术教育顾问": "艺术教育顾问", "Bilingual art education leader who combines teaching, enrollment, marketing and design — ready for admissions, art-education, marketing and gallery roles in New York.": "中英双语的艺术教育管理者，集教学、招生、营销与设计于一身——寻求纽约的招生、艺术教育、市场营销及画廊相关职位。", "Contact Me →": "联系我 →", "Based in · 所在地": "所在地", "New York, NY": "美国纽约", "Languages · 语言": "语言", "Mandarin (native) · English (fluent)": "中文（母语）· 英文（流利）", "Education · 学历": "学历", "MBA · B.A. Fashion Design & Engineering · Fine Art Studies": "MBA 工商管理硕士 · 服装设计与工程本科 · 纯艺术两年", "Credentials · 资质": "资质", "AMS Montessori Credential · Senior Image Designer": "AMS 蒙台梭利教师认证 · 高级形象设计师", "Track record · 成绩": "成绩", "Personally enrolled 200+ students · founded & ran a school and art studio for 6 years": "亲自招生 200+ 名学生 · 自主创办并经营学校和画室 6 年", "Core skills · 核心能力": "核心能力", "Admissions & enrollment · marketing & social media · web, brand & video design · curriculum": "招生录取 · 市场营销与新媒体 · 网站、品牌与视频设计 · 课程设计", "Jump to · 快速跳转": "快速跳转", "Over 12 years in U.S. private and public schools I have taught, designed curricula, and led programs. I founded and ran my own Montessori school and art studio for six years — handling everything from setup and management to sales and enrollment.": "12年来，我在美国公立和私立学校任教、设计课程、带领项目。我创办并经营自己的蒙台梭利学校和画室六年，从筹建、管理到销售招生，全部亲力亲为。", "Today I lead online marketing and enrollment for art and Montessori schools, build their websites and social channels, and design the visuals and videos myself. I'm especially strong at connecting with Chinese-speaking families and guiding students toward top U.S. art schools.": "现在我负责艺术学校和蒙台梭利学校的线上营销与招生，搭建网站和社交媒体账号，视觉设计和视频都由我亲手制作。我尤其擅长与华人家庭沟通，帮助学生走向美国顶尖艺术院校。", "Core Strengths": "核心优势", "Six areas where I deliver results on day one — from a full enrollment pipeline to the design work behind it.": "六大领域，入职第一天就能出成果——从完整的招生流程，到背后的设计执行。", "Enrollment & Admissions": "招生与录取", "Enrollment for art, Montessori and music schools in CA, FL and RI": "负责加州、佛州、罗德岛多所艺术、蒙氏和音乐学校的招生", "Directly enrolled 200+ students at my own school and studio": "在自己的学校和画室亲自招生 200+ 名学生", "Full funnel: inquiry, consultation, tours, follow-up, close": "全流程：咨询、面谈、参观、跟进、签约", "Especially strong with Chinese-speaking families": "尤其擅长服务华人家庭", "Marketing & Social Media": "市场营销与新媒体", "Run all online marketing for two schools": "负责两所学校的全部线上营销", "Facebook, Instagram, TikTok, YouTube, Google Business, 小红书, WeChat": "Facebook、Instagram、TikTok、YouTube、谷歌商家、小红书、微信", "Meta & Google ad planning, email follow-up": "Meta 和谷歌广告投放、邮件跟进", "Events, field marketing & partnerships in person": "策划活动、地推和线下合作洽谈", "Design, Web & Video": "设计 · 网站 · 视频", "Build and maintain school & artist websites": "搭建并维护学校和艺术家网站", "Brand identity (VI), posters, mascots, print": "品牌视觉（VI）、海报、吉祥物、印刷品", "Promo videos, theme songs, UX/UI design": "宣传视频、主题曲、UX/UI 设计", "Fluent in design, office and AI tools": "熟练使用设计、办公和 AI 工具", "Art Education & Portfolios": "艺术教育与作品集", "Art-portfolio mentoring for U.S. art-school applicants": "为申请美国艺术院校的学生做作品集指导", "Course design, incl. my \"Drawing Music\" (画音乐) system": "课程设计，包括我原创的「画音乐」课程体系", "Blend Montessori method with art curriculum": "把蒙台梭利教学法融入艺术课程", "Organize student art exhibitions": "策划学生艺术展", "School Leadership": "学校管理", "8 years of school management experience": "8 年学校管理经验", "Founded & ran a school and studio for 6 years": "创办并经营学校和画室 6 年", "Plan and run school events independently": "独立策划并执行学校活动", "Former customer-service center supervisor, Fortune Global 500": "曾任世界500强企业客服中心主管", "Inclusive & Special Education": "融合与特殊教育", "3 years of art programs for autistic children": "3 年自闭症儿童艺术课程经验", "Designed an inclusive (non-clinical) art course": "设计融合艺术课程（非医疗类）", "Special-education substitute teacher, public schools": "公立学校特殊教育代课老师", "Patient, structured, child-centered approach": "耐心、有条理、以孩子为中心", "Teaching, enrollment, marketing and management in U.S. private and public schools — plus a corporate foundation in customer service.": "在美国公私立学校从事教学、招生、营销和管理，并有大企业客户服务的扎实基础。", "2026 — Present": "2026 年至今", "Orlando, FL": "佛罗里达州奥兰多", "Marketing & Enrollment · Art & Montessori Teacher": "市场与招生负责人 · 艺术与蒙氏教师", "Run the school's marketing and enrollment, including Facebook, Instagram, TikTok and Google Business Profile.": "负责学校的营销与招生，运营 Facebook、Instagram、TikTok 和谷歌商家主页。", "Produce promotional videos and parent communications; follow up on every family inquiry.": "制作宣传视频和家长沟通内容，跟进每一个家庭咨询。", "Run a Montessori classroom with art as its signature, and launched the school's art classes.": "带领以艺术为特色的蒙台梭利班级，并开设了学校的美术课。", "2019 — Present": "2019 年至今", "New York & Rhode Island": "纽约与罗德岛", "Art Portfolio Mentor · Enrollment & Marketing Lead": "艺术作品集导师 · 招生与营销负责人", "Art-portfolio academy (New York & Rhode Island)": "艺术作品集学校（纽约与罗德岛）", "Handle online enrollment, consultations and parent communication for portfolio and art programs.": "负责作品集和艺术课程的线上招生、咨询和家长沟通。", "Lead all online marketing: website design, promotional videos, theme-song creation and brand image design.": "负责全部线上营销：网站设计、宣传视频、主题曲创作和品牌形象设计。", "Mentor art-portfolio students one-on-one online; assist online portfolio classes and design the course materials.": "一对一线上指导作品集学生，协助线上作品集课程并设计课程资料。", "Designed an inclusive art course for students with special needs.": "为特殊需要学生设计融合艺术课程。", "Ongoing": "持续合作", "New York": "纽约", "Artist Representative & Web Designer": "艺术家经纪与网站设计", "Painter Chengju Li — Territory Painting": "画家李成举 — 版图画", "Built the artist's website, chengjuli.com, and run his video channel.": "搭建艺术家网站 chengjuli.com，运营他的视频频道。", "Handle brand marketing and promotion for his custom commissions and painting sales.": "负责定制作品和画作销售的品牌营销与推广。", "6 Years": "6 年", "Irvine, CA": "加州尔湾", "Founder & Director": "创办人兼校长", "Novel Park Montessori · Own Art Studio": "Novel Park 蒙台梭利学校 · 个人画室", "Founded and ran a Montessori school and an art-painting studio — from setup and licensing to management and sales.": "创办并经营蒙台梭利学校和绘画工作室——从筹建、办照到管理和销售。", "Personally enrolled 200+ students across both programs.": "两个项目共亲自招生 200+ 名学生。", "Also handled enrollment for a Montessori school and a music school in Irvine.": "还负责过尔湾一所蒙台梭利学校和一所音乐学校的招生。", "Prior Roles": "早期经历", "New York · California · Florida": "纽约 · 加州 · 佛州", "Montessori & Art Teacher": "蒙台梭利与艺术教师", "Taught in Montessori classrooms; also ran enrollment at Lake Forest Children's House Montessori.": "在蒙台梭利班级任教，并负责 Lake Forest Children's House 蒙台梭利学校的招生。", "As art teacher at a San Diego music & arts school, designed the \"Drawing Music\" (画音乐) course system.": "在圣地亚哥一所音乐艺术学校任美术老师，设计了「画音乐」课程体系。", "Special-education substitute teacher in Orange County Public Schools (FL).": "佛州橙县公立学校特殊教育代课老师。", "Earlier Career": "更早经历", "China": "中国", "Customer Service Center Supervisor": "客服中心主管", "Fortune Global 500 company": "世界500强企业", "Managed customer files and research for 80 gas stations and about 10,000 customers.": "管理 80 座加油站、约 1 万名客户的客户档案与调研。", "Led investment-attraction management, marketing events, and full pre-sale, in-sale and after-sale service.": "负责招商管理、营销活动，以及售前、售中、售后全流程服务。", "Education & Credentials": "教育与资质", "Master's": "硕士", "MBA — Business Administration": "MBA 工商管理", "Two-year U.S. program": "美国两年制项目", "Bachelor's": "本科", "Fashion Design & Engineering": "服装设计与工程", "Four-year bachelor's degree": "四年制本科", "Fine Art": "纯艺术", "Fine art studies · 2 years": "纯艺术学习 · 2 年", "Credentials": "资质", "Senior Image Designer certification · Art-portfolio advanced study, Rhode Island": "高级形象设计师 · 罗德岛艺术作品集进修", "Hand-drawn Art": "手绘作品", "A curated selection of my finished works — mixed media, acrylic portraiture, fashion illustration and drawing, all made by hand. Tap any work to view it full size.": "精选我的完成作品——综合材料、丙烯肖像、服装效果图和素描，全部亲手绘制。点击任意作品可查看大图。", "Wild Symphony": "万物共生", "万物共生 · 综合材料 · Mixed media: colored pencil, graphite, ink & acrylic": "综合材料：彩铅、铅笔、钢笔与丙烯", "Portrait in Red": "红色肖像", "丙烯肖像 · Acrylic on canvas": "布面丙烯", "Bohemian Runway": "波西米亚秀场", "服装设计效果图 · Fashion illustration": "服装设计效果图", "Portrait Study": "人物肖像", "人物肖像 · 素描 · Graphite": "铅笔素描", "I don't just plan the marketing — I design and produce it. A cross-section of what I create.": "我不只做营销策划，还亲手设计和制作。以下是我的部分作品。", "Websites & Digital Presence": "网站与数字形象", "School and artist websites I designed, built and maintain — including chengjuli.com.": "我设计、搭建并维护的学校和艺术家网站，包括 chengjuli.com。", "Visit chengjuli.com ↗": "访问 chengjuli.com ↗", "Promo Videos": "宣传视频", "Daily school & brand videos": "学校与品牌日常视频", "Brand Identity": "品牌视觉", "Logos, VI, mascots": "Logo、VI、吉祥物", "Posters & Print": "海报与印刷", "Ads, flyers, event posters": "广告、传单、活动海报", "Theme Songs": "主题曲", "Original school songs": "原创校歌", "Curriculum & Courses": "课程体系", "\"Drawing Music\" system, inclusive art course, Montessori-art curriculum, online portfolio course materials": "「画音乐」课程体系、融合艺术课程、蒙氏艺术课程、线上作品集课程资料", "Fashion & Hand-drawn Art": "服装设计与手绘", "Selected works ↑": "作品精选 ↑", "Art Exhibitions": "艺术展览", "Student shows I organized": "我策划的学生作品展", "Skills & Tools": "技能与工具", "Responsible, quick to learn, and comfortable owning a project end to end.": "认真负责、学习能力强，能独立完成一个项目的全过程。", "Design": "设计", "UX/UI design": "UX/UI 设计", "Brand VI": "品牌 VI", "Print layout": "印刷排版", "Web & Video": "网站与视频", "Marketing": "营销", "Email campaigns": "邮件营销", "Social scheduling": "社媒排期发布", "Office & AI": "办公与 AI", "AI tools": "AI 工具", "Mandarin Chinese": "中文", "NATIVE · 母语": "母语", "English": "英文", "FLUENT · 流利": "流利", "Open to full-time roles in New York — universities, galleries and art institutions, admissions and enrollment, and art-education marketing.": "寻求纽约的全职工作机会——大学、画廊与艺术机构、招生录取、艺术教育营销。", "Roles I'm a strong fit for": "适合我的岗位", "Admissions & Enrollment": "招生与录取", "Art Education Programs": "艺术教育项目", "Marketing & Communications": "市场与传播", "Gallery & Art Sales": "画廊与艺术品销售", "Chinese Market Outreach": "华人市场拓展", "Email": "邮箱", "Copy": "复制", "WhatsApp": "WhatsApp", "Message me on WhatsApp": "在 WhatsApp 上联系我", "Location": "所在地", "杨林 Evelyn · 艺术作品集导师 Art Director": "杨林 Evelyn · 艺术作品集导师 Art Director", "© 2026 杨林 Evelyn. All artwork shown is my own.": "© 2026 杨林 Evelyn。网站展示的作品均为本人原创。", "Students I enrolled": "亲自招生", "at my own school": "学生人数"},txt=[],els=[].slice.call(document.querySelectorAll('[data-zh]'));
+  var tw=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);var tn;
+  while(tn=tw.nextNode()){var k=tn.textContent.trim();if(k&&ZH[k]&&!tn.parentElement.closest('[data-zh],script,style'))txt.push([tn,tn.textContent,ZH[k]])}
+  els.forEach(function(e){e._en=e.innerHTML});
+  var lb2=document.getElementById('langBtn');
+  function setLang(l){document.documentElement.lang=l==='zh'?'zh':'en';
+    txt.forEach(function(t){t[0].textContent=l==='zh'?t[2]:t[1]});
+    els.forEach(function(e){e.innerHTML=l==='zh'?e.getAttribute('data-zh'):e._en});
+    lb2.querySelectorAll('span').forEach(function(s){s.classList.toggle('on',s.dataset.l===l)});
+    try{localStorage.setItem('lang',l)}catch(e){}}
+  lb2.addEventListener('click',function(){setLang(document.documentElement.lang==='zh'?'en':'zh')});
+  var start='en';try{start=localStorage.getItem('lang')||((navigator.language||'').toLowerCase().indexOf('zh')===0?'zh':'en')}catch(e){}
+  if(location.hash==='#zh')start='zh';if(location.hash==='#en')start='en';
+  setLang(start);
+  var bg=document.getElementById('burger'),mm=document.getElementById('mmenu');
+  bg.addEventListener('click',function(){var o=mm.classList.toggle('open');bg.classList.toggle('x',o);bg.setAttribute('aria-expanded',o)});
+  mm.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){mm.classList.remove('open');bg.classList.remove('x');bg.setAttribute('aria-expanded','false')})});
+  var tt=document.getElementById('totop');
+  window.addEventListener('scroll',function(){tt.classList.toggle('on',window.scrollY>700)},{passive:true});
+  var nl={};document.querySelectorAll('.links a').forEach(function(a){nl[a.dataset.s]=a});
+  if('IntersectionObserver' in window){var so=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){for(var k in nl)nl[k].classList.remove('on');if(nl[x.target.id])nl[x.target.id].classList.add('on')}})},{rootMargin:'-45% 0px -50% 0px'});
+  Object.keys(nl).forEach(function(k){var el=document.getElementById(k);if(el)so.observe(el)})}
+  var els=document.querySelectorAll('.reveal');
+  if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in')})}else{
+  var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target);}})},{threshold:.12});
+  els.forEach(function(e){io.observe(e)});}
+  document.querySelectorAll('.copy').forEach(function(b){
+    b.addEventListener('click',function(){
+      var t=b.getAttribute('data-copy');
+      try{navigator.clipboard.writeText(t).then(function(){b.textContent='Copied ✓';setTimeout(function(){b.textContent='Copy'},1600)},function(){b.textContent=t})}catch(e){b.textContent=t}
+    });
+  });
+})();
+</script>
+</body>
+</html>
